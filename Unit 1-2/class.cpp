@@ -15,16 +15,19 @@ void Employee :: setData(){
     
     cin>>salary;
    
+
     cin>>post;
     
 }
 void Employee ::getData(){
-cout<<"Name is"<<name<<endl;
- cout<<"Salary is"<<salary<<endl;
+cout<<"Name is "<<name<<endl;
+ cout<<"Salary is "<<salary<<endl;
  cout<<"Designation is "<<post<<endl;
 }
 
 int main(){
-
+    Employee a;
+    a.setData();
+    a.getData();
     return 0;
 }
